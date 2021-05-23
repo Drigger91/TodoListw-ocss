@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import SorryBoo from './components/SorryBoo';
+import Counter from './Counter';
+import Todo from './Todo';
+import Todo1 from './Todo1';
+
 
 function App() {
   return (
     <div className="App">
-      <SorryBoo></SorryBoo>
+       {/* <Todo></Todo>  */}
+       <Todo1></Todo1> 
     </div>
   );
 }
